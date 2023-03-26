@@ -22,3 +22,4 @@ MNIST를 가지고 학습을 하고 AutoEncoder를 통해서도 그대로 복원
 * torch.no_grad() :autograd를 끔으로써 메모리 사용량을 줄이고 연산 속도를 높히기 위함 -> 사실상 어짜피 안쓸 gradient인데 inference시에 굳이 계산할 필요X
   일반적으로 inference를 진행할 때는 torch.no_grad() with statement로 감싼다는 사실을 알면 된다.
 * model.eval() : 이런 layer들의 동작을 inference(eval) mode로 바꿔준다는 목적으로 사용
+* AutoEncoder 응용 자료 : https://towardsdatascience.com/what-are-stable-diffusion-models-and-why-are-they-a-step-forward-for-image-generation-aa1182801d46
